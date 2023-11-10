@@ -1,7 +1,6 @@
 import React from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import { Button } from "@mui/material";
-
+import img from "../assets/img/Education.png";
 function Home() {
   return (
     <div>
@@ -22,17 +21,28 @@ function Home() {
           <KeyboardArrowDownIcon />
         </div>
       </nav>
+      <div className="">
+      <h1 className="text-5xl font-bold font-dm-sans">Harmony in Learning</h1>
+    </div>
       <div>
-        <h1>Harmony in Learning</h1>
+      <h1 className="text-5xl font-bold font-dm-sans text-green-700">Uniting Curiosity and <br/>Knowledge</h1>
       </div>
       <div>
-        <h1>Uniting Curiosity and Knowledge</h1>
+        <h5>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui<br/> lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat<br/> fugiat aliqua.</h5>
       </div>
-      <div>
-        <h5>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua</h5>
+      <div className="flex gap-4">
+      <button className="bg-green-700 text-white py-2 px-4 rounded ">
+        Explore
+      </button>
+      <button className="bg-white text-black py-1 px-4 rounded shadow w-32">
+        Watch Video
+      </button>
+    </div>
+    <div className="w-96 h-96 bg-white p-4 border shadow flex justify-center items-center">
+      <div className="w-80 h-80 bg-gray-200 text-black p-2 ">
+      <img src={img} alt="Image" className="w-full h-full object-contain" />
       </div>
-      <Button>Explore</Button>
-      <Button>Watch Video</Button>
+    </div>
     </div>
   );
 }

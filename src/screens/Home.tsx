@@ -1,11 +1,15 @@
 import React from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import img from "../assets/img/Education.png";
+
 function Home() {
   return (
     <div>
       <nav className="flex flex-row justify-between items-center  px-20 py-6">
         <div className="flex flex-row items-center gap-x-24">
+          <div>
+
+          </div>
           <div>
             <h2 className="text-lg font-bold">XY-COLLEGE</h2>
           </div>
@@ -39,13 +43,16 @@ function Home() {
         Watch Video
       </button>
     </div>
+    <div className="">
     <div className="w-96 h-96 bg-white p-4 border shadow flex justify-center items-center">
       <div className="w-80 h-80 bg-gray-200 text-black p-2 ">
       <img src={img} alt="Image" className="w-full h-full object-contain" />
       </div>
+      </div>
     </div>
     </div>
     </div>
+   
   );
 }
 

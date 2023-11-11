@@ -21,16 +21,17 @@ function Home() {
           <KeyboardArrowDownIcon />
         </div>
       </nav>
-      <div className="">
-      <h1 className="text-5xl font-bold font-dm-sans">Harmony in Learning</h1>
+      <div className="px-20">
+      <div className="mt-40">
+      <h1 className="text-5xl font-bold font-dm-sans ">Harmony in Learning</h1>
     </div>
       <div>
       <h1 className="text-5xl font-bold font-dm-sans text-green-700">Uniting Curiosity and <br/>Knowledge</h1>
       </div>
-      <div>
-        <h5>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui<br/> lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat<br/> fugiat aliqua.</h5>
+      <div className="mt-4">
+        <h5 className="font-light">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui<br/> lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat<br/> fugiat aliqua.</h5>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4 mt-10">
       <button className="bg-green-700 text-white py-2 px-4 rounded ">
         Explore
       </button>
@@ -42,6 +43,7 @@ function Home() {
       <div className="w-80 h-80 bg-gray-200 text-black p-2 ">
       <img src={img} alt="Image" className="w-full h-full object-contain" />
       </div>
+    </div>
     </div>
     </div>
   );

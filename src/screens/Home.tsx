@@ -23,13 +23,13 @@ function Home() {
       </nav>
       <div className="px-20">
       <div className="mt-40">
-      <h1 className="text-5xl font-bold font-dm-sans ">Harmony in Learning</h1>
+      <h1 className="text-7xl font-bold font-dm-sans ">Harmony in Learning</h1>
     </div>
       <div>
-      <h1 className="text-5xl font-bold font-dm-sans text-green-700">Uniting Curiosity and <br/>Knowledge</h1>
+      <h1 className="text-7xl font-bold font-dm-sans text-green-700">Uniting Curiosity and <br/>Knowledge</h1>
       </div>
       <div className="mt-4">
-        <h5 className="font-light">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui<br/> lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat<br/> fugiat aliqua.</h5>
+        <h5 className="font-light text-xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui<br/> lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat<br/> fugiat aliqua.</h5>
       </div>
       <div className="flex gap-4 mt-10">
       <button className="bg-green-700 text-white py-2 px-4 rounded ">
